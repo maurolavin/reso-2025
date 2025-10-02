@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #111;
+    scroll-behavior: smooth;
+
+}
+
+
+.max-page-width {
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 1300px;
+    display: flex;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+h1 img{
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    text-decoration: none;
+    color: #fff;
+    list-style-type: none;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.index-main {
+    background-image: url('./img/Reso\ main\ background\ graphic.webp');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.main-text-container {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-section-parrafo {
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+p {
+    max-width: 60ch
+}
+
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem 3rem;
+    min-height: 100vh;
+    margin-bottom: 3rem;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    color: #fff;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+    padding-top: 100px;
+}
+
+.link-playlist {
+    margin: 150px auto;
+}
+
+.playlist-button {
+    color: #1d1d1d;
+    background: #ffcc00;
+    border: none;
+    padding: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 100px;
+}
+
+.playlist-button:hover {
+    color: #ffffff;
+    background: #1d1d1d;
+}
+
+#detalles {
+    font-size: 24px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.actividad-card {
+    width: 280px;
+}
+
+.actividad-card:hover {
+    background-color: #1d1d1d;
+}
+
+.actividad-card img {
+    height: 40%;
+    width: 100%;
+}
+
+.actividad-card p {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+article {
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    margin-left: 1.5rem;
+    list-style-type: square;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    max-width: 400px;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contacto h3 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-form {
+    margin: 0 auto;
+}
+
+#FAQ {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FAQ {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.FAQ li {
+    padding: 20px 300px;
+}
+
+button {
+    background: #ffcc00;
+    border: none;
+    padding: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #e6b800;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-media-footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-footer a {
+    padding: 20px;
+}
+.social-media-footer img {
+    width: 30px;
+}
